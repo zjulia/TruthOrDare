@@ -6,7 +6,7 @@
         id        = "com.zjulia.truthordare"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Truth or Dare</name>
 
     <description>
         Truth or dare
