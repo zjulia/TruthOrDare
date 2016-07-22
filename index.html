@@ -1,14 +1,16 @@
 <html>
   <head>
   <script language='javascript' src='popup.js'></script>
-	<h3>Working on some big things, thanks for the support guys!</h3>
+	<h3></h3>
+	<br><br>
 	<h1>Truth or Dare!</h1> 
+	<hr><br>
 	<style>
 	  h1
 	  {
 		font-size: 30px;
 		text-shadow:
-			-1px -1px 0 #FFFFFF,
+			-1px -1px 0 #000000,
 			1px -1px 0 #000000,
 			-1px 1px 0 #000000,
 			1px 1px 0 #000000;
@@ -16,12 +18,11 @@
       body 
 	  {
         min-width: 300px;
-		background-color: #FFCCCC;
-		color: #FF0066;
+		background-color: #2F4F4F;
+		color: #ffff7d;
 		text-align: center;
-		background-image: url("truthphoto.jpg");
 		text-shadow:
-			-1px -1px 0 #FFFFFF,
+			-1px -1px 0 #000000,
 			1px -1px 0 #000000,
 			-1px 1px 0 #000000,
 			1px 1px 0 #000000;
@@ -30,16 +31,16 @@
 	  {
 		font-size: 15px;
 		text-shadow:
-			-1px -1px 0 #FFFFFF,
+			-1px -1px 0 #000000,
 			1px -1px 0 #000000,
 			-1px 1px 0 #000000,
 			1px 1px 0 #000000;
 	  }
 	  #truth
 	  {
-		background-color: #CCFFFF;
-		color: #FF0066;
-		border: 5px solid red;
+		background-color: #ffffff;
+		color: #ffff7d;
+		border: 3px solid pink;
 		border-radius: 10px;
 		font-weight: bold;
 		font-size: 15px;
@@ -51,9 +52,9 @@
 	  }
 	  #dare
 	  {
-		background-color: #CCFFFF;
-		color: #FF0066;
-		border: 5px solid white;
+		background-color: #ffffff;
+		color: #ffff7d;
+		border: 3px solid pink;
 		border-radius: 10px;
 		font-weight: bold;
 		font-size: 15px;
@@ -65,9 +66,9 @@
 	  }	
 	  #espanol, #english
 	  {
-		background-color: #CCCCFF;
-		color: #FFFF66;
-		border: 5px solid white;
+		background-color: #ffffff;
+		color: #ffff7d;
+		border: 3px solid pink;
 		border-radius: 7px;
 		font-weight: bold;
 		font-size: 12px;
@@ -78,18 +79,7 @@
 			1px 1px 0 #000;
 	  }
     </style>
-<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-58411589-1', 'auto');
-		ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
   </head>
 
   <body>
@@ -104,7 +94,7 @@
 		<p id="totals"> </p>
     </form>
     <br><br>
-    <form name="languageForm" style="position: fixed; bottom: 0; width:100%; text-align: center">
+    <form name="languageForm" style="text-align: center">
 		<!-- The languages -->
 		<input type='button' id='espanol' value="Espanol!">
 		<input type='button' id='english' value="English!">
